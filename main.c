@@ -22,16 +22,17 @@ void Bubblesort(int a[],int size)
         }
     }
 }
+//modified for lab  R3
 int main()
 {
    int a[10]={1,5,9,7,8,4,6,3,2,0};
-    printf("ÊäÈë10¸öÊýÎª£º");
+    printf("ï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½");
     for(int i=0;i<10;i++)
     {
         printf("%d ",a[i]);
     }
     Bubblesort(a,10);
-    printf("Ã°ÅÝÅÅÐòºóÎª£º\n");
+    printf("Ã°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½\n");
     for(int i=0;i<10;i++)
     {
         printf("%d ",a[i]);
